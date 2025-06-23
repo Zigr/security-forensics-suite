@@ -1,0 +1,11 @@
+[project]
+name = "security-tg-abuse"
+version = "0.1.0"
+description = "Security. Telegram abuse prevention tools."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pillow>=11.2.1",
+    "pytesseract>=0.3.13",
+    "typer>=0.16.0",
+]
